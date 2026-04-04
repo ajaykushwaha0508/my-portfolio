@@ -10,7 +10,7 @@ const projects = [
     color: "#1e3a5f",
     accent: "#4a9eff",
     icon: "📊",
-    imgUrl: "/src/assets/FMH.png",
+    imgUrl: "/images/FMH.png",
     demo: "https://www.fullmoonholidays.com",
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     desc: "A wedding planner that manages everything—from decoration to guest handling—to make your event stress-free and memorable.",
     color: "#1e3d2f",
     accent: "#4ade80",
-    imgUrl: "/src/assets/PE.png",
+    imgUrl: "/images/PE.png",
     icon: "🛍",
     demo: "https://www.poornamevents.com/",
   },
@@ -31,7 +31,7 @@ const projects = [
     desc: "A supplier of industrial packaging machines used by businesses to pack, seal, and process products.",
     color: "#3d1e1e",
     accent: "#f87171",
-    imgUrl: "/src/assets/inhyma.png",
+    imgUrl: "/images/inhyma.png",
     icon: "✓",
     demo: "https://www.inhyma.com",
   },
@@ -43,7 +43,7 @@ const projects = [
     color: "#2d1e3d",
     accent: "#c084fc",
     demo: "https://www.madhubanecoretreat.com/",
-    imgUrl: "/src/assets/madhuban.png",
+    imgUrl: "/images/madhuban.png",
   },
   {
     title: "Dream Home Styling (interior design company)",
@@ -53,7 +53,7 @@ const projects = [
     color: "#1e2d3d",
     accent: "#38bdf8",
     demo: "https://www.dreamhomestyling.com/",
-    imgUrl: "/src/assets/DHS.png",
+    imgUrl: "/images/DHS.png",
   },
 ];
 

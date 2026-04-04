@@ -87,10 +87,7 @@ export default function Hero() {
           <div className="hero-image-card">
             <div className="image-glow" />
             <div className="hero-photo">
-              <img
-                src="src/assets/ajay.png"
-                alt="Arjun - MERN Stack Developer"
-              />
+              <img src="images/ajay.png" alt="Ajay - MERN Stack Developer" />
             </div>
             <div className="exp-badge" ref={badgeRef}>
               <span className="exp-number">2+</span>
