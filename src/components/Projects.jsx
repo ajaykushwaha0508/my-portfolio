@@ -55,6 +55,16 @@ const projects = [
     demo: "https://www.dreamhomestyling.com/",
     imgUrl: "/images/DHS.png",
   },
+  {
+    title: "Zentrail",
+    category: ["All", "React", "Next.js"],
+    tags: ["React", "Tailwind CSS", "Next.js"],
+    desc: "ZenTrail is a travel platform that offers curated, mood-based journeys and tour packages across India, focusing on adventure, wellness, and soulful travel experiences",
+    color: "#1e2d3d",
+    accent: "#38bdf8",
+    demo: "https://www.zentrail.in/",
+    imgUrl: "/images/zentrail.png",
+  },
 ];
 
 const filters = ["All", "React", "Next.js", "mongodb"];
@@ -125,14 +135,14 @@ export default function Projects() {
                 <p className="project-desc">{project.desc}</p>
 
                 <div className="project-links">
-                  <a href={project.demo} className="project-link primary">
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    className="project-link primary"
+                  >
                     Live Demo
                     <span>↗</span>
                   </a>
-                  {/* <a href={project.source} className="project-link ghost">
-                    GitHub
-                    <span>↗</span>
-                  </a> */}
                 </div>
               </div>
             </div>
